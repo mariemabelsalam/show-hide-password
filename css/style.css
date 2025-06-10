@@ -1,0 +1,19 @@
+.bg{
+    background-color: rgba(37,9,91,.5);
+}
+input {
+    width: 400px;
+}
+i {
+    right: 9%;
+    cursor: pointer;
+}
+input:focus{
+    outline:none;
+}
+
+@media (max-width:767px) {
+  input{
+    width: 300px;
+  }
+}
